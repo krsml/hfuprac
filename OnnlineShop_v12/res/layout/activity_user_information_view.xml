@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".UserInformationViewActivity" >
 
-<TableLayout
+    <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,18 +28,19 @@
                 android:layout_height="wrap_content"
                 android:text="Name"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
-            <EditText
-     		   	android:id="@+id/nameField"
-        		android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-        		android:layout_below="@+id/tableLayout1"
-        		android:layout_centerHorizontal="true"
-        		android:layout_marginTop="0dp"
-        		android:ems="10"
-        		android:inputType="textPersonName" >
 
-        		<requestFocus />
-    		</EditText>
+            <EditText
+                android:id="@+id/nameField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
         </TableRow>
 
         <TableRow
@@ -53,16 +54,16 @@
                 android:layout_height="wrap_content"
                 android:text="Password"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
-            
+
             <EditText
-   			    android:id="@+id/passwordField"
-        		android:layout_width="wrap_content"
-        		android:layout_height="wrap_content"
-        		android:layout_below="@+id/tableLayout1"
-        		android:layout_centerHorizontal="true"
-        		android:layout_marginTop="0dp"
-        		android:ems="10"
-        		android:inputType="textPassword" />
+                android:id="@+id/passwordField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="textPassword" />
         </TableRow>
 
         <TableRow
@@ -76,16 +77,17 @@
                 android:layout_height="wrap_content"
                 android:text="E-mail"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
             <EditText
-        		android:id="@+id/emailField"
-        		android:layout_width="wrap_content"
-        		android:layout_height="wrap_content"
-		        android:layout_alignLeft="@+id/tableLayout1"
-        		android:layout_below="@+id/tableLayout1"
-        		android:layout_marginLeft="0dp"
-        		android:layout_marginTop="0dp"
-        		android:ems="10"
-        		android:inputType="textEmailAddress" />
+                android:id="@+id/emailField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tableLayout1"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
         </TableRow>
 
         <TableRow
@@ -99,18 +101,17 @@
                 android:layout_height="wrap_content"
                 android:text="Phone Number"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
-            
+
             <EditText
-        		android:id="@+id/phoneField"
-        		android:layout_width="wrap_content"
-        		android:layout_height="wrap_content"
-        		android:layout_alignLeft="@+id/tableLayout1"
-        		android:layout_below="@+id/tableLayout1"
-        		android:layout_marginLeft="0dp"
-        		android:layout_marginTop="0dp"
-        		android:ems="10"
-        		android:inputType="phone" />
-            
+                android:id="@+id/phoneField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tableLayout1"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="phone" />
         </TableRow>
 
         <TableRow
@@ -124,17 +125,17 @@
                 android:layout_height="wrap_content"
                 android:text="Home Address"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
-            
+
             <EditText
-        		android:id="@+id/addressField"
-        		android:layout_width="wrap_content"
-        		android:layout_height="wrap_content"
-        		android:layout_alignLeft="@+id/tableLayout1"
-        		android:layout_below="@+id/tableLayout1"
-        		android:layout_marginLeft="0dp"
-        		android:layout_marginTop="0dp"
-        		android:ems="10"
-        		android:inputType="textPostalAddress" />
+                android:id="@+id/addressField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tableLayout1"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:ems="10"
+                android:inputType="textPostalAddress" />
         </TableRow>
     </TableLayout>
 
@@ -144,8 +145,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tableLayout1"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
         android:text="Welcom To Online Shop"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
